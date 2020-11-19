@@ -1,0 +1,97 @@
+
+main { background-color:burlywood; width: 100%;min-width: 200px; box-sizing:border-box; height: auto}
+ header{width: 90%;height: auto; text-align:center;font-size: 300%;word-wrap: break-word; font-family: fantasy; color:red; background-image:url(imagenes/Pana.JPEG); padding: 5%}
+#menu ul{list-style-type: none; text-align: right}
+#menu li{ display:inline-flex;text-align:right;margin:0 10px 0 0}
+#menu li a  { padding: 2px 7px 2px 7px; color:whitesmoke;background-color: none; border: 10% black; text-decoration: none}
+#menu li a:hover{background-color: #333333;color:#ffffff; }
+main article h2{ font-family: cursive; text-align: center; font-size: 400%; border-style: groove;border-color: black; background-color:chocolate }
+main article p{font-size: 150%; margin-left: 20%; margin-right: 20%; font-family: cursive}
+p{ text-align: justify}
+img { height:auto;width:30%; padding: 8%}
+footer{ width: 90%;padding: 5% ; background-color: brown; text-align:center;margin: }
+
+#wrapper{width: 100%;box-sizing: border-box;display:inline-flex; background-color: bisque;border:black 60px solid; border-image-source: url(imagenes/trigho.jpeg); border-image-slice: 75; overflow:hidden; padding: 1%}
+section h2{text-align: center; font-size: 200%; background-color: burlywood} 
+div article h3{ font-size: 200%; text-decoration: underline; text-decoration-color:black}
+ div article {width:400%;height: auto; float:left;font-size: 18px; box-sizing:border-box; text-align:justify;padding: 30px; overflow:visible; background-color:darkgoldenrod }
+ div article img{ width: 60%}
+div aside{width:300%; height: auto; padding:30px;float:right;font-size: 18px; box-sizing: border-box;text-align: justify; background-color: chocolate}
+div aside h4{ font-size: 150%; text-decoration:underline; text-decoration-color:black}
+ div aside img{ width: 75%}
+@media screen and ( max-width:800px){div article{width:100%;}aside{ width: 100%}}
+@media screen and ( max-width:400px){div article{width:100%;}aside{ display: none}}
+
+#contenedor{width: 100%;box-sizing: border-box;display: inline-flex;background-color: bisque;border:black 60px solid; border-image-source: url(imagenes/trigho.jpeg); border-image-slice: 75;overflow: hidden;padding: 1%}
+section h1{ text-align: center; background-color: bisque; font-size: 60px}
+.secciones-main{float:left; width: 50% ;background-color:burlywood; padding: 5%;font-size: 18px; border-top-left-radius: 34px;border-bottom-left-radius: 34px; box-sizing: border-box}
+table {border-style:double}
+.secciones-main h2{ font-size: 150%}
+.secciones-aside {float: left; width: 50%; background-color:burlywood;padding: 5%;font-size: 18px;  border-top-right-radius: 34px;border-bottom-right-radius: 34px; box-sizing: border-box;border-left-style: outset}
+articles h5 {font-size: 100%; padding: 5%}
+section img{ width: 80% ; height:auto; display: inline-block; margin-top: 50%}
+@media screen and ( max-width:800px){.secciones-main{width:100%;}.secciones-aside{ width: 100%}}
+@media screen and ( max-width:400px){secciones-main{width:100%;}.secciones-aside{ display: none}}
+
+
+.articulos {background-color: bisque; border:black 50px solid; border-image-source: url(imagenes/trigho.jpeg); border-image-slice: 75; padding:5%;font-size: 18px }
+
+
+div{width: 100%;box-sizing: border-box;display:inline-flex; background-color: bisque;border:black 60px solid; border-image-source: url(imagenes/trigho.jpeg); border-image-slice: 75; overflow:hidden; padding: 1%}
+ h1{ text-align: center;font-size: 200%;}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+    width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+    display:block;}
+
+
+
+
+
